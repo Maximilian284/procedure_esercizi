@@ -2,14 +2,14 @@
 #include <string>
 using namespace std;
 
-int input(string mes);
+int inputInt(string mes);
 void printSum(int a, int b);
 
 int main(){
-	printSum(input("inserisci un numero: "), input("inserisci un numero: "));
+	printSum(inputInt("inserisci un numero: "), inputInt("inserisci un numero: "));
 }
 
-int input(string mes){
+int inputInt(string mes){
 	int n;
 	
 	cout << mes;
